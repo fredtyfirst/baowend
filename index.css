@@ -1,3 +1,24 @@
+.left-column, .right-column {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+.left-column {
+  background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+.right-column {
+  background-color: #e0e0e0; /* Adjust background color as needed */
+}
+
 
 .header {
   color: white;
@@ -17,6 +38,17 @@
   width: 150px;
   margin-right: 10px;
   max-width: 100%;
+}
+.dividem{
+  display: flex;
+}
+.idem1{
+  background-color: green;
+  max-height: 100px;
+}
+
+.idem2{
+  background-color: blue;
 }
 
 .tabs-container{
@@ -69,16 +101,9 @@
 }
 
 
-body {
-  font-family: Arial, sans-serif;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
-}
+
 
 a:hover, button:hover {
   opacity: 0.99;
 }
-
-
