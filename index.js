@@ -11,7 +11,6 @@ var content3 = document.getElementById("content3");
 var content4 = document.getElementById("content4");
 
 
-
 tab1.classList.add('active');
 content1.classList.add('active');
 
@@ -78,4 +77,3 @@ tab4.onclick = function() {
   content2.classList.remove('active');
 
 }
-
