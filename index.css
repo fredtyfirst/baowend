@@ -88,7 +88,9 @@
   display: block;
 }
 
-
+#content1.active {
+  display: flex;
+}
 body {
   font-family: Arial, sans-serif;
   background-size: cover;
@@ -114,10 +116,6 @@ a:hover, button:hover {
 
 }
 
-#content1{
-  display: flex;
-
-}
 
 #idema2{
   margin-left: 50px;
