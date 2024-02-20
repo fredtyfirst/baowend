@@ -112,12 +112,43 @@ a:hover, button:hover {
 }
 
 #mainphoto{
-  width:500px;
-  margin-right: 10px;
-  max-width: 100%;
+  width:100%;
+  margin-right: 5%;
+
 
 }
 
+
+#idema1{
+
+  width: 50%;
+}
+
 #idema2{
-  margin-left: 50px;
+  margin-left: 1%;
+
+  width: 50%;
+}
+
+#idema3{
+  margin-left: 5%;
+
+  width: 50%;
+}
+
+
+
+#about{
+  text-align: justify;
+}
+
+#aboutMe{
+
+
+}
+
+.social-icon {
+  width: 5%;
+  height: auto;
+  margin: 5%;
 }
